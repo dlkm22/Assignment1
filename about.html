@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Assignment 1 (About page)</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+        h1{
+            font-size: 90px;
+            color: white;
+        }
+
+        span{
+            
+            font-family: 'Merriweather', serif;
+            font-size: 20px;
+        }
+
+        
+        @media (max-width: 540px){
+            body{
+                background: url(wallpaperforu-360x640.jpg)
+            }
+        }
+
+        body{
+            background: url(jordan1.jpg);
+        }
+
+
+    </style>
+    <body>
+        <a href=""><img src="ns-logo-with-tagline.jpg" title="Home" class="center"></a>
+
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        <article>
+            <header>
+                <h1><em>Our Mission</em></h1>
+            </header>
+                <span style="background-color: white">We aim to curate Asia's largest collection of in-demand sneakers and collectibles,<br>
+                    delivered through an exceptional customer experience.
+                </span>
+                <h1><em>Our Vision</em></h1>
+                <p style="text-align: center;"><em>Our Vision</em></p>
+            
+
+
+
+                <script>
+                    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+                </script>
+            </header>
+        </article>
+    </body>
+</html>

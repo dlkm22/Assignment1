@@ -33,8 +33,12 @@ The website is catered to people who are looking for a platform to buy and sell 
 
 ## Content
 
+https://novelship.com/about
+
 ## Media
 
 - Novelship logo and slogan: https://novelship.com/news/author/user/
+
+- About section background: https://unsplash.com/photos/Q9S0w7Bhx3A
 
 ## Acknowledgements
