@@ -41,4 +41,12 @@ https://novelship.com/about
 
 - About section background: https://unsplash.com/photos/Q9S0w7Bhx3A
 
+- Homepage 1st picture: https://www.facebook.com/Novelship/
+
+- Homepage 2nd picture: https://wallpaperaccess.com/4k-sneaker
+
+- Homepage 3rd picture: https://www.channelnewsasia.com/advertorial/sneakers-shipped-seamlessly-speedily-2425051
+
+- Homepage 4th picture: https://en.wikipedia.org/wiki/Asia
+
 ## Acknowledgements
