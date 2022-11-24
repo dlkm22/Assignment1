@@ -49,4 +49,8 @@ https://novelship.com/about
 
 - Homepage 4th picture: https://en.wikipedia.org/wiki/Asia
 
+- Homepage video: https://www.youtube.com/watch?v=6pSYZkNRj2o
+
+- Handshake image: https://pngtree.com/freepng/deal-icon_5105600.html
+
 ## Acknowledgements
