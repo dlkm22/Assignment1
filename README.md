@@ -53,4 +53,6 @@ https://novelship.com/about
 
 - Handshake image: https://pngtree.com/freepng/deal-icon_5105600.html
 
+- Question mark image: https://www.swoopanalytics.com/blog/question-mark-analysis
+
 ## Acknowledgements

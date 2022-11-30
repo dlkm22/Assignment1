@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Assignment 1 (home page) </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <style>
+        p{
+            color: black;
+        }
+
+        h1{
+            color:black;
+        }
+
+
+
+    </style>
+
+    <body>
+        <nav>
+            <a href="index.html"><img class="center" src="ns-logo-with-tagline.jpg" title="Home"></a>
+            <ul>
+            <li><a href="https://novelship.com/" target="_blank">Official Website</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="download.html">Download App</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <img class="center "src="Question-mark.jpg">
+          <h1 style="text-align: center;"><strong>Have a question? Drop it below!</strong></h1>
+
+          <form action="#" method="POST">
+            <label><p style="text-align: center;">Full Name:
+                <input type="text" placeholder="Full Name" name="Name" required>
+            </p>
+            </label>
+            <label><p style="text-align: center;">Email:
+                <input type="text" placeholder="Email Address" name="Email" required>
+            </p>
+            </label>
+            
+
+            <p style="text-align: center;">Type of inquiry?</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="General" required>General Inquiry</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="Buyer" required>As a Buyer</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="Seller" required>As a Seller</p>
+
+            <p style="text-align:center;"">
+            Enter your query here
+            </p>
+            <p style="text-align:center;"><textarea id="textbox" name="Query" rows="4" cols="30" required></textarea></p>
+
+            <p style="text-align:center;"><input type="submit" value="Submit"></p>
+          </form>
+
+    </body>
