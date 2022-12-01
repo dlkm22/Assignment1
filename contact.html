@@ -4,37 +4,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Assignment 1 (home page) </title>
+        <title>Assignment 1 (Contact page) </title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     </head>
-
-    <style>
-        p{
-            color: black;
-        }
-
-        h1{
-            color:black;
-        }
-
-
+    <style> 
 
     </style>
-
+    
     <body>
-        <nav>
-            <a href="index.html"><img class="center" src="ns-logo-with-tagline.jpg" title="Home"></a>
-            <ul>
-            <li><a href="https://novelship.com/" target="_blank">Official Website</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="download.html">Download App</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
 
-          <img class="center "src="Question-mark.jpg">
-          <h1 style="text-align: center;"><strong>Have a question? Drop it below!</strong></h1>
+    <header>
+      <a href="index.html" class="brand">Novelship</a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="https://novelship.com/" target="_blank">Official Website</a>
+        <a href="download.html">Download Now</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
 
+    <section class="section-main">
+        <h1><em>Contact Us</em></h1>
+    </section>
+
+    <section class="section-two">
           <form action="#" method="POST">
             <label><p style="text-align: center;">Full Name:
                 <input type="text" placeholder="Full Name" name="Name" required>
@@ -47,9 +48,9 @@
             
 
             <p style="text-align: center;">Type of inquiry?</p>
-            <p style="text-align: center;"><input type="radio" name="ans" value="General" required>General Inquiry</p>
-            <p style="text-align: center;"><input type="radio" name="ans" value="Buyer" required>As a Buyer</p>
-            <p style="text-align: center;"><input type="radio" name="ans" value="Seller" required>As a Seller</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="General" required> General Inquiry</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="Buyer" required> As a Buyer</p>
+            <p style="text-align: center;"><input type="radio" name="ans" value="Seller" required> As a Seller</p>
 
             <p style="text-align:center;"">
             Enter your query here
@@ -58,5 +59,38 @@
 
             <p style="text-align:center;"><input type="submit" value="Submit"></p>
           </form>
+    </section>
+
+    <footer>
+        <ul>
+          <li><a href="https://www.linkedin.com/company/novelship?originalSubdomain=sg" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+          </a></li>
+          <li><a href="https://www.instagram.com/novelship/" target="_blank"><i class="fa-brands fa-instagram"></i></i>
+          </a></li>
+          <li><a href="https://twitter.com/Novelship" target="_blank"><i class="fa-brands fa-twitter"></i>
+          </a></li>
+          <li><a href="https://www.facebook.com/Novelship/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+         
+        </ul>
+       </footer>
+
+          <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+              var header = document.querySelector("header");
+              header.classList.toggle('sticky', window.scrollY > 0);
+            });
+    
+            var menu = document.querySelector('.menu');
+            var menuBtn = document.querySelector('.menu-btn');
+            var closeBtn = document.querySelector('.close-btn');
+    
+            menuBtn.addEventListener("click", () => {
+              menu.classList.add('active');
+            });
+    
+            closeBtn.addEventListener("click", () => {
+              menu.classList.remove('active');
+            });
+          </script>
 
     </body>

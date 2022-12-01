@@ -6,52 +6,89 @@
         <meta name="viewport" content="width=device-width">
         <title>Assignment 1 (home page) </title>
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     </head>
-    <style>
-
-
-p{
-  font-size: 20px;
-}
+    <style> 
 
     </style>
     
     <body>
-        <nav>
-          <a href="index.html"><img class="center" src="ns-logo-with-tagline.jpg" title="Home"></a>
-          <ul>
-          <li><a href="https://novelship.com/" target="_blank">Official Website</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="download.html">Download App</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
+
+    <header>
+      <a href="index.html" class="brand">Novelship</a>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="https://novelship.com/" target="_blank">Official Website</a>
+        <a href="download.html">Download Now</a>
+      </div>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+
+      <section class="section-main">
+        <h1>One of Asia's largest authentic streetwear and sneaker marketplace.<br>Visit our marketplace and official website and download our mobile app using the links above.</h1>
+        
+      </section>
+
+      <section class="section-two">
+        <h2><em>Exclusive Sneakers, Apparel and Collectibles</em></h2>
+        <p>Novelship is Asia's fastest growing marketplace for 100% authentic, limited edition sneakers, apparel and collectibles from your favorite and world's most exclusive brands<br>
+          including Nike, Air Jordan, adidas Yeezy, Fear of God, Supreme, Bape, Bearbrick and more!</p><br>
+        <img src="106253.jpg">
 
 
-      <p><img src="banner.jpg" class="center"></p>
-      <h1 style="text-align:center">One of Asia's largest authentic streetwear and sneaker marketplace.<br></h1>
-      <p style="text-align:center;">Visit our marketplace and official website and download our mobile app using the links above.</p>
+        <h2><em>Always Authenthic, Never Fake</em></h2>
+        <p>Our passion for authentic sneakers, apparel and collectibles runs deep. Novelship was built on the core belief that you deserve to buy and sell 100% authentic products<br>
+          without exception. On our platform, every single product bought and sold is verified, authenticated and traded securely.</p><br>
+        <img src="authenticity.jpg">
+          
 
-      <h1 style="text-align:center"><em>Exclusive Sneakers, Apparel and Collectibles</em></h1>
-      <p style="text-align:center">Novelship is Asia's fastest growing marketplace for 100% authentic, limited edition sneakers, apparel and collectibles from your favorite and world's most exclusive brands<br>
-         including Nike, Air Jordan, adidas Yeezy, Fear of God, Supreme, Bape, Bearbrick and more!</p> 
-         <p><img src="106253.jpg" class="center"></p>
+        <h2><em>Local First, Global Second</em></h2>
+        <p>We're Asia born and bred, that means our focus is on you. We worked out all the logistics so you can sleep easy. Buying from us means you never have to worry about lengthy delays<br>
+          or missing orders. We deliver every time, fully guaranteed. With Novelship, there's no fuss or cross-border hassles.</p>
+        <img src="asia.jpg">
+      </section>
+
+      <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add('active');
+        });
+
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove('active');
+        });
+      </script>
       
-      <h1 style="text-align:center"><em>Always Authenthic, Never Fake</em></h1>
-      <p style="text-align:center">Our passion for authentic sneakers, apparel and collectibles runs deep. Novelship was built on the core belief that you deserve to buy and sell 100% authentic products<br>
-         without exception. On our platform, every single product bought and sold is verified, authenticated and traded securely.</p>
-         <p><img src="authenticity.jpg" class="center"></p>
-         <iframe width="560" height="500" src="https://www.youtube.com/embed/6pSYZkNRj2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe>
+  
 
-      <h1 style="text-align:center"><em>Local First, Global Second</em></h1>
-      <p style="text-align:center">We're Asia born and bred, that means our focus is on you. We worked out all the logistics so you can sleep easy. Buying from us means you never have to worry about lengthy delays<br>
-         or missing orders. We deliver every time, fully guaranteed. With Novelship, there's no fuss or cross-border hassles.</p>
-         <p><img src="asia.jpg" class="center"></p>
-
-
-
-         <footer></footer>
+    
+         <footer>
+          <ul>
+            <li><a href="https://www.linkedin.com/company/novelship?originalSubdomain=sg" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+            </a></li>
+            <li><a href="https://www.instagram.com/novelship/" target="_blank"><i class="fa-brands fa-instagram"></i></i>
+            </a></li>
+            <li><a href="https://twitter.com/Novelship" target="_blank"><i class="fa-brands fa-twitter"></i>
+            </a></li>
+            <li><a href="https://www.facebook.com/Novelship/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+           
+          </ul>
+         </footer>
 
 
 

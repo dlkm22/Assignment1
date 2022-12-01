@@ -4,61 +4,48 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Assignment 1 (About page)</title>
+        <title>Assignment 1 (About page) </title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     </head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
-        h1{
-            font-size: 90px;
-            color: white;
-        }
-
-        span{
-            font-family: 'Merriweather', serif;
-            font-size: 30px;
-        }
-
-        body{
-            background: url(taylor-smith-aDZ5YIuedQg-unsplash.jpg);
-            background-size: cover;
-        }
-
-        h2{
-            font-size: 70px;
-            color: white;
-        }
 
     </style>
     <body>
-        <nav>
-            <a href="index.html"><img class="center" src="ns-logo-with-tagline.jpg" title="Home"></a>
-            <ul>
-            <li><a href="https://novelship.com/" target="_blank">Official Website</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="download.html">Download App</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
-        <article>
-            <video width ="1000" height="1200" autoplay loop muted class="center">
+        <header>
+            <a href="index.html" class="brand">Novelship</a>
+            <div class="menu">
+              <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+              </div>
+              <a href="about.html">About Us</a>
+              <a href="contact.html">Contact Us</a>
+              <a href="https://novelship.com/" target="_blank">Official Website</a>
+              <a href="download.html">Download Now</a>
+            </div>
+            <div class="btn">
+              <i class="fas fa-bars menu-btn"></i>
+            </div>
+          </header>
+
+          <section class="section-main">
+            <h1>About Us</h1>
+          </section>
+
+            <section class="section-two">
+            <video autoplay loop muted>
                 <source src ="Intro.mp4" type="video/mp4">
             </video>
-            <h1><em>Our Mission</em></h1>
-            <span style="background-color: white">We aim to curate Asia's largest collection of in-demand sneakers and collectibles,<br>
-                delivered through an exceptional customer experience.
-            </span>
+            
+            <h2><em>Our Mission</em></h2>
+            <p>We aim to curate Asia's largest collection of in-demand sneakers and collectibles,<br>
+                delivered through an exceptional customer experience.</p>
 
-            <div style="text-align: right">
-            <h1><em>Our Vision</em></h1>
-            <span style="background-color: white;">To be Asia’s most beloved organization for cool products.</span>
-            </div>
-
-            <br>
-            <br>
-            <br>
-            <br>
+            <h2><em>Our Vision</em></h2>
+            <p>To be Asia’s most beloved organization for cool products.</p>
 
             <div style="text-align: center">
             <h2><em>How do we connect buyers and sellers?</em></h2>
@@ -71,11 +58,42 @@
             <span style="background-color: white;"> Buyer and seller agree on a price.</span><br>
 
             <span style="background-color: white;">🤝</span>
+            </section>
+
+            <script type="text/javascript">
+                window.addEventListener("scroll", function(){
+                  var header = document.querySelector("header");
+                  header.classList.toggle('sticky', window.scrollY > 0);
+                });
+        
+                var menu = document.querySelector('.menu');
+                var menuBtn = document.querySelector('.menu-btn');
+                var closeBtn = document.querySelector('.close-btn');
+        
+                menuBtn.addEventListener("click", () => {
+                  menu.classList.add('active');
+                });
+        
+                closeBtn.addEventListener("click", () => {
+                  menu.classList.remove('active');
+                });
+              </script>
 
 
 
 
-            <footer></footer>
+<footer>
+    <ul>
+      <li><a href="https://www.linkedin.com/company/novelship?originalSubdomain=sg" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+      </a></li>
+      <li><a href="https://www.instagram.com/novelship/" target="_blank"><i class="fa-brands fa-instagram"></i></i>
+      </a></li>
+      <li><a href="https://twitter.com/Novelship" target="_blank"><i class="fa-brands fa-twitter"></i>
+      </a></li>
+      <li><a href="https://www.facebook.com/Novelship/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+     
+    </ul>
+   </footer>
 
         </article>
     </body>

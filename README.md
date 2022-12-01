@@ -37,7 +37,7 @@ https://novelship.com/about
 
 ## Media
 
-- Novelship logo and slogan: https://novelship.com/news/author/user/
+- Homepage background: https://wallpaperaccess.com/1920-x-1080-grey#google_vignette
 
 - About section background: https://unsplash.com/photos/Q9S0w7Bhx3A
 
@@ -54,5 +54,9 @@ https://novelship.com/about
 - Handshake image: https://pngtree.com/freepng/deal-icon_5105600.html
 
 - Question mark image: https://www.swoopanalytics.com/blog/question-mark-analysis
+
+- Google play and Apple store logo: https://www.lawntowildflowers.org/download
+
+- Grey background: https://www.pinterest.com/pin/579275570790049869/
 
 ## Acknowledgements
