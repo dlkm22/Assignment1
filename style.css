@@ -383,7 +383,7 @@ body{
 
 .section main h1{
   color: rgba(255, 255, 255, 0.5);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -457,7 +457,7 @@ header .btn{
 
 .section-two h2{
   color: rgba(255,255,255,0.5);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 30px 0;
@@ -520,7 +520,6 @@ header .btn{
   }
 
   
-  
 }
 
 ul{
@@ -575,6 +574,10 @@ ul li a::before{
 
 ul li a:hover::before{
   transform: skewX(45deg) translateX(-150px);
+}
+
+.image{
+  width: 50%;
 }
 
 
