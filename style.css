@@ -541,7 +541,7 @@ ul li a{
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 45px rgba(0, 0, 0, 0,1);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   transition: 0.5s;
   overflow: hidden;
