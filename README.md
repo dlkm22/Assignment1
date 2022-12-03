@@ -36,7 +36,7 @@ Here is the link to my wireframe: https://xd.adobe.com/view/809f7ac0-763c-4d83-a
   - The project uses JavaScript to implement the responsive menu feature and the solid navigation bar when scrolling down on the website.
 
 - [FontAwesome](https://fontawesome.com)
- - The project uses FontAwesome for icons such as Facebook, Twitter, Linkedin, Instagram , the menu icon and the X icon for closing the menu.
+ - The project uses FontAwesome library for icons such as Facebook, Twitter, Linkedin, Instagram , the menu icon and the X icon for closing the menu.
 
 - [GoogleFonts](https://fonts.google.com/)
  - The project uses Google Fonts for the fonts such as Poppins and Merriweather.
