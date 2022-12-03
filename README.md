@@ -15,7 +15,7 @@ The website is catered to people who are looking for a platform to buy and sell 
 - As an onlooker, I want to find out general information about Novelship and how to use it.
 
 
-Here is the link to my wireframe: https://xd.adobe.com/view/65bfcd99-7b39-4ca5-a921-2b8d66329a3c-30ec/?fullscreen
+Here is the link to my wireframe: https://xd.adobe.com/view/809f7ac0-763c-4d83-a430-6cf74d1190f6-d5cc/?fullscreen
 
 # Features
 
@@ -48,7 +48,7 @@ Here is the link to my wireframe: https://xd.adobe.com/view/65bfcd99-7b39-4ca5-a
   2. Submit an empty form with no input and verify that all fields must be filled in order to submit the form.
   3. Submit a complete form with all inputs and verify that it is able to be submitted.
 
-2. Responsive Navigation Bar:
+1. Responsive Navigation Bar:
   1. Go to any page
   2. With a website that can test responsiveness, set width of device to at most 1060px
   3. Verify that navigation bar shrinks into a menu page with all links and an exit button
